@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-double windChill(double v, double t);
+double windChill(double t, double v);
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     cin >> temp;
     cout << "Enter the wind speed:";
     cin >> wSpeed;
-    result = windChill(wSpeed,temp);
+    result = windChill(temp,wSpeed);
     cout.setf(ios::fixed);
     cout.precision(1);
     cout << "The wind chill temperature is " << result << " degrees Fahrenheit";

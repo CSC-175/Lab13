@@ -1,4 +1,4 @@
-\Large Wind Chill Calculator Function
+# Lab13 - Wind Chill Function
 
 **Background**
 

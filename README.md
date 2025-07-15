@@ -3,7 +3,7 @@
 ## Background
 
 In cold weather, meteorologists report an index called the wind chill factor, which takes into account the wind speed and temperature. The index provides a measure of the 
-chilling effect of wind at a given air temperature. Note: For MPH > 3.0 and air temp <= 50 degrees F 
+chilling effect of wind at a given air temperature. Note: For MPH > 3.0 and air temp <= 50 degrees.
 </br></br>
 The windchill formula is: </br>
 $W = 35.74 + 0.6215t - 35.75v^{0.16} + 0.4275tv^{0.16}$
